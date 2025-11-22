@@ -6,7 +6,6 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -17,6 +16,4 @@ public class CategoryResponse {
     private Long totalElements;
     private Integer totalPages;
     private boolean lastPage;
-
-
 }
